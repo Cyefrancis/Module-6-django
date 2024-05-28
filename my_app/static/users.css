@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    /* esto es por que el h1 tien un margen raro y no queda bien */
+    margin-left: 2rem;
+}
+h1, ul{
+    color: #023047;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none ;
+}

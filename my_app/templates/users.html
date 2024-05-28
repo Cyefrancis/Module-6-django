@@ -1,0 +1,26 @@
+{% extends "./base/master.html" %}
+{%load static%}
+
+{%block title%} 
+    Lista de usuarios
+{% endblock %}
+
+    
+    {%block content%} 
+        <h1>Usuarios</h1>
+        <ul>
+            {% for u in my_users %}
+                <li>Nombre: {{u.nombre}} {{u.apellido}} Edad: {{u.edad}} </li>
+            {% endfor %}
+        </ul>
+    
+     <img src="{%static 'deviousemoji.png'%}" alt="devious emoji">
+     <img src="{%static 'skull.jpeg'%}" alt="skull"> 
+
+    {% endblock %}
+    
+    
+
+
+
+    
